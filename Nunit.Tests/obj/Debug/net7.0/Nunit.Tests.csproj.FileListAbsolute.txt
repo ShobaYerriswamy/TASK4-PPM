@@ -102,3 +102,5 @@ C:\Users\SMandlole\4-PPM\Nunit.Tests\obj\Debug\net7.0\refint\Nunit.Tests.dll
 C:\Users\SMandlole\4-PPM\Nunit.Tests\obj\Debug\net7.0\Nunit.Tests.pdb
 c:\Users\SMandlole\4-PPM\Nunit.Tests\obj\Debug\net7.0\Nunit.Tests.genruntimeconfig.cache
 c:\Users\SMandlole\4-PPM\Nunit.Tests\obj\Debug\net7.0\ref\Nunit.Tests.dll
+C:\Users\SMandlole\4-PPM\Nunit.Tests\bin\Debug\net7.0\IEntityOperation.dll
+C:\Users\SMandlole\4-PPM\Nunit.Tests\bin\Debug\net7.0\IEntityOperation.pdb

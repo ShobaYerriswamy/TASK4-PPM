@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "PPM.MODEL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PPM.MODEL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PPM.MODEL.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PPM.MODEL/1.0.0": {
+      "type": "project",
+      "path": "../PPM.MODEL/PPM.MODEL.csproj",
+      "msbuildProject": "../PPM.MODEL/PPM.MODEL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "PPM.MODEL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\SMandlole\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
+              "projectPath": "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

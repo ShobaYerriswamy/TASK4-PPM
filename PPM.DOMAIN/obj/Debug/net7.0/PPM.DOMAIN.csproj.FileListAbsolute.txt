@@ -13,3 +13,5 @@ c:\Users\SMandlole\4-PPM\PPM.DOMAIN\obj\Debug\net7.0\PPM.DOMAIN.dll
 c:\Users\SMandlole\4-PPM\PPM.DOMAIN\obj\Debug\net7.0\refint\PPM.DOMAIN.dll
 c:\Users\SMandlole\4-PPM\PPM.DOMAIN\obj\Debug\net7.0\PPM.DOMAIN.pdb
 c:\Users\SMandlole\4-PPM\PPM.DOMAIN\obj\Debug\net7.0\ref\PPM.DOMAIN.dll
+c:\Users\SMandlole\4-PPM\PPM.DOMAIN\bin\Debug\net7.0\IEntityOperation.dll
+c:\Users\SMandlole\4-PPM\PPM.DOMAIN\bin\Debug\net7.0\IEntityOperation.pdb

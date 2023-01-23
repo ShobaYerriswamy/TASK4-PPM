@@ -61,11 +61,11 @@ namespace UserInterface
                                 Console.WriteLine(" Enter 1 to Adding Project ");
                                 Console.WriteLine(" Enter 2 to List All projects ");
                                 Console.WriteLine(" Enter 3 to List Project By Id ");
-                                Console.WriteLine(" Enter 4 to Project By Name ");
+                                Console.WriteLine(" Enter 4 to List Project By Name ");
                                 Console.WriteLine(" Enter 5 to Adding Employee to Project ");
                                 Console.WriteLine(" Enter 6 to Remove Employee from Project ");
                                 Console.WriteLine(" Enter 7 to View Projects with Employees ");
-                                Console.WriteLine(" Enter 8 to Delete Project  ");
+                                Console.WriteLine(" Enter 8 to Delete Project ");
                                 Console.WriteLine(" Enter \"x\" to Exit to Main Menu ");
                                 Console.WriteLine("");
 
@@ -371,7 +371,7 @@ namespace UserInterface
                                         
                                         catch(FormatException e)
                                         {
-                                            Console.WriteLine("ID can only in Integer");
+                                            Console.WriteLine("ID can only in Number");
                                         }
                                     
                                         catch(Exception e)
@@ -813,7 +813,7 @@ namespace UserInterface
 
                                                 Console.WriteLine("Enter the Role Id");
                                                 int roleIDD = Convert.ToInt32(Console.ReadLine());
-                                                for(int i = 0;i<RM.roleList.Count;i++)
+                                                for(int i = 0; i<RM.roleList.Count; i++)
                                                 {
                                                     if(roleIDD == RM.roleList[i].roleId)
                                                     {
@@ -849,7 +849,6 @@ namespace UserInterface
                                             Console.WriteLine("Role ID should be in Numbers only");
                                             Console.ReadLine();
                                         }
-
                                         break;
 
 

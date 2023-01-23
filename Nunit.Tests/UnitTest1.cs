@@ -17,7 +17,7 @@ namespace PPM.Tests
             ProjectManager projectManager = new ProjectManager();
             Project project = new Project("Test", "17/08/2022", "17/09/2023",5);
             projectManager.AddingProjects(project);
-            Assert.True(projectManager.Exist(5));
+             Assert.True(projectManager.Exist(5));
         }
 
         [Test]
@@ -46,6 +46,16 @@ namespace PPM.Tests
             List<Project> addingprojectList =new List<Project>();
             Project project1 = new Project("Test", "17/08/2022", "17/09/2023",5);
             addingprojectList.Add(project1);
+            ProjectManager tests = new ProjectManager();
+            Project objecting = new Project("Test", "17/08/2022", "17/09/2023",5);
+            tests.AddingProjects(objecting);
+            for (int i=0; i<tests.projects.Count; i++)
+            {
+                Assert.That(tests.projects[i].id, Is.EqualTo(5));
+                Assert.That(tests.projects[i].projectName, Is.EqualTo("Test"));
+
+            }
+
         }
 
 

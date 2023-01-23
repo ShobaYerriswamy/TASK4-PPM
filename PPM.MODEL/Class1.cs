@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using myAliasName2 = System.Collections.Generic.List<int>; 
 
 namespace MODEL
 {
-    public class Project 
+    public class Project : IComparable<Project> 
     {
         public List<Employee> EmployeeListfromEmployeeManager { get; set; } = new List<Employee>();
 
         public string projectName {get; set;} = default!;
         public string startDate {get; set;} = default!;
         public string endDate {get; set;} = default!;
-        public int? id {get; set;} = default!;
+        public int id {get; set;} = default!;
         
         public int employeeId;
 
@@ -32,9 +33,14 @@ namespace MODEL
         {
 
         }
+
+        public int CompareTo(Project other)
+        {
+            return this.id.CompareTo(other.id);
+        }
     }
 
-    public class Employee
+    public class Employee : IComparable<Employee>
     {
         public int employeeID {get; set;} = default!;
 
@@ -62,12 +68,17 @@ namespace MODEL
         {
 
         }
+
+        public int CompareTo(Employee other)
+        {
+            return this.roleId.CompareTo(other.roleId);
+        }
     }
 
-    public class Role
+    public class Role : IComparable<Role>
     {
         public string? roleName {get; set;} 
-        public int? roleId {get; set;} 
+        public int roleId {get; set;} = default!;
 
         public Role(int roleid, string roleName)
         {
@@ -78,6 +89,11 @@ namespace MODEL
         public Role()
         {
             
-        }
+        } 
+
+        public int CompareTo(Role other)
+        {
+            return this.roleId.CompareTo(other.roleId);
+        }  
     }
 }

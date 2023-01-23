@@ -2,10 +2,24 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "IEntityOperation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PPM.MODEL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IEntityOperation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IEntityOperation.dll": {}
+        }
+      },
       "PPM.DOMAIN/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "IEntityOperation": "1.0.0",
           "PPM.MODEL": "1.0.0"
         },
         "compile": {
@@ -42,6 +56,11 @@
     }
   },
   "libraries": {
+    "IEntityOperation/1.0.0": {
+      "type": "project",
+      "path": "../IEntityOperation/IEntityOperation.csproj",
+      "msbuildProject": "../IEntityOperation/IEntityOperation.csproj"
+    },
     "PPM.DOMAIN/1.0.0": {
       "type": "project",
       "path": "../PPM.DOMAIN/PPM.DOMAIN.csproj",

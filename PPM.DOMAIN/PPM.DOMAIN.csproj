@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PPM.MODEL\PPM.MODEL.csproj" />
+    <ProjectReference Include="..\IEntityOperation\IEntityOperation.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

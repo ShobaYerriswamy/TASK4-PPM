@@ -15,3 +15,5 @@ c:\Users\SMandlole\4-PPM\PPM.UI\obj\Debug\net7.0\PPM.UI.dll
 c:\Users\SMandlole\4-PPM\PPM.UI\obj\Debug\net7.0\refint\PPM.UI.dll
 c:\Users\SMandlole\4-PPM\PPM.UI\obj\Debug\net7.0\PPM.UI.pdb
 c:\Users\SMandlole\4-PPM\PPM.UI\obj\Debug\net7.0\ref\PPM.UI.dll
+c:\Users\SMandlole\4-PPM\PPM.UI\bin\Debug\net7.0\IEntityOperation.dll
+c:\Users\SMandlole\4-PPM\PPM.UI\bin\Debug\net7.0\IEntityOperation.pdb

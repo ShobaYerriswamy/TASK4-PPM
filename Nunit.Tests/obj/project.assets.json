@@ -974,10 +974,24 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "IEntityOperation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PPM.MODEL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IEntityOperation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IEntityOperation.dll": {}
+        }
+      },
       "PPM.DOMAIN/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "IEntityOperation": "1.0.0",
           "PPM.MODEL": "1.0.0"
         },
         "compile": {
@@ -3968,6 +3982,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "IEntityOperation/1.0.0": {
+      "type": "project",
+      "path": "../IEntityOperation/IEntityOperation.csproj",
+      "msbuildProject": "../IEntityOperation/IEntityOperation.csproj"
     },
     "PPM.DOMAIN/1.0.0": {
       "type": "project",

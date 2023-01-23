@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "IEntityOperation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PPM.MODEL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IEntityOperation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IEntityOperation.dll": {}
+        }
+      },
       "PPM.MODEL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "IEntityOperation/1.0.0": {
+      "type": "project",
+      "path": "../IEntityOperation/IEntityOperation.csproj",
+      "msbuildProject": "../IEntityOperation/IEntityOperation.csproj"
+    },
     "PPM.MODEL/1.0.0": {
       "type": "project",
       "path": "../PPM.MODEL/PPM.MODEL.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "IEntityOperation >= 1.0.0",
       "PPM.MODEL >= 1.0.0"
     ]
   },
@@ -51,8 +70,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
-              "projectPath": "c:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj"
+            "C:\\Users\\SMandlole\\4-PPM\\IEntityOperation\\IEntityOperation.csproj": {
+              "projectPath": "C:\\Users\\SMandlole\\4-PPM\\IEntityOperation\\IEntityOperation.csproj"
+            },
+            "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
+              "projectPath": "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj"
             }
           }
         }

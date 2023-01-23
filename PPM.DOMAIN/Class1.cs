@@ -106,7 +106,7 @@ namespace Domain
             }
         }
         
-        public void AddingEmployeeToProject (int pid, Employee ename)
+        public void EmployeeToProject (int pid, Employee ename)
         {
             if(EM.Exist(pid))
             {
@@ -148,7 +148,7 @@ namespace Domain
             return null;
         }
 
-        public void EmployeeToProject(int pid, Employee ename)
+        public void AddingEmployeeToProject(int pid, Employee ename)
         {
             foreach(Project i in projects)
             {
@@ -221,7 +221,7 @@ namespace Domain
         {
             for (int i=0; i<projects.Count; i++)
             {
-                for (int j=0; j<projects[j].EmployeeListfromEmployeeManager.Count; j++)
+                for (int j=0; j<projects[i].EmployeeListfromEmployeeManager.Count; j++)
                 {
                     if(employeeid == projects[i].EmployeeListfromEmployeeManager[j].employeeID)
                     {
@@ -361,7 +361,7 @@ namespace Domain
         {
             for(int i=0; i<employeeList.Count; i++)
             {
-                if(eid==employeeList[i].employeeID)
+                if(employeeList[i].employeeID == eid)
                 {
                     return true;
                 }       

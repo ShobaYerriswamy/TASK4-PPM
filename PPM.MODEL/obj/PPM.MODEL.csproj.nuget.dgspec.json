@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {}
+    "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {}
   },
   "projects": {
-    "c:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
+    "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj",
+        "projectUniqueName": "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj",
         "projectName": "PPM.MODEL",
-        "projectPath": "c:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj",
+        "projectPath": "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\PPM.MODEL.csproj",
         "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\obj\\",
+        "outputPath": "C:\\Users\\SMandlole\\4-PPM\\PPM.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"

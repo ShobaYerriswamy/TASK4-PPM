@@ -7,7 +7,9 @@ namespace IEntityOperation
          void AddingProjects(Project project);
          void ViewProject(Project project);
          void DisplayAllProjects();
+
          List<Employee> SearchingForEmployee (int readingProjectId);
+         
          void DisplayEmployeesInProjectById(int readingProjectId);
          void AddingEmployeeToProject (int pid, Employee ename);
          void DeleteProject(int pid, Project project);
@@ -20,7 +22,7 @@ namespace IEntityOperation
     {
         void AddEmployee(Employee employee);
         void ViewEmployee(Employee employee);
-        void ShowEmployees() ;
+        void ShowEmployees();
         void ShowEmployee(int eid);
         void DeleteEmployee(int employeeId, Employee employee);
     }

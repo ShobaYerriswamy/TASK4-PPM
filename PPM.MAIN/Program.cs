@@ -1,11 +1,13 @@
 ﻿using System;
 using UserInterface;
-static class Program
+namespace Final
 {
-    public static void Main(string[] args)
+    static class Program
     {
-        Viewing view = new Viewing();
-        view.View();
-    
+        public static void Main(string[] args)
+        {
+            Viewing view = new Viewing();
+            view.View();
+        }
     }
 }

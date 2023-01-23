@@ -20,3 +20,5 @@ C:\Users\SMandlole\4-PPM\PPM.MAIN\obj\Debug\net7.0\refint\PPM.MAIN.dll
 C:\Users\SMandlole\4-PPM\PPM.MAIN\obj\Debug\net7.0\PPM.MAIN.pdb
 c:\Users\SMandlole\4-PPM\PPM.MAIN\obj\Debug\net7.0\PPM.MAIN.genruntimeconfig.cache
 c:\Users\SMandlole\4-PPM\PPM.MAIN\obj\Debug\net7.0\ref\PPM.MAIN.dll
+C:\Users\SMandlole\4-PPM\PPM.MAIN\bin\Debug\net7.0\IEntityOperation.dll
+C:\Users\SMandlole\4-PPM\PPM.MAIN\bin\Debug\net7.0\IEntityOperation.pdb
